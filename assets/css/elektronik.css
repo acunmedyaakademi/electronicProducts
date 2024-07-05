@@ -1,0 +1,31 @@
+th {
+  border: 1px solid black;
+  color: rebeccapurple;
+  font-size: 16px;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+}
+
+a svg {
+  display: inline;
+  width: 16px;
+  fill: black;
+}
+
+.productForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.ee {
+  display: flex;
+  flex-direction: column;
+}
+
+#basket li {
+  display: flex;
+  gap: 8px;
+}

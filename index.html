@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elektronik Ürünler</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ülkeler</title>
+  <link rel="stylesheet" href="assets/css/elektronik.css">
+  <script src="assets/js/elektronik.js" defer></script>
+</head>
+
+<body>
+
+  <div class="container">
+    <header class="countryHeader">
+      <h1> Kasa</h1>
+      <p id="basket">
+
+      </p>
+
+      <button id="addCountryBtn">Ekle</button>
+    </header>
+    <button id="addData">Örnek Tablo İçin Tıklayınız</button>
+
+    <div class="countries" id="countryContainer">
+     <table id="electronic">
+    </table>
+    </div>
+
+
+  </div>
+
+
+  <dialog id="modal">
+    <form class="productForm" method="dialog" id="addProductForm">
+      <label for="name">Ürün Giriniz</label>
+      <input type="text" name="name">
+      <label for="origin">Üretim Yeri Giriniz</label>
+      <input type="text" name="origin">
+      <label for="price">Fiyat Giriniz</label>
+      <input type="text" name="price">
+      <label for="category">Kategori Giriniz</label>
+      <input type="text" name="category">
+      <label for="icon">Görsel Giriniz</label>
+      <input type="text" name="icon">
+      <label for="stock">Stok Giriniz</label>
+      <input type="number" name="stock">
+      <p><button class="modelAddNew">Ekle</button> <button class="modelEdit">Kaydet</button> <button type="button"
+          onclick="addProductForm.reset();modal.close();">Vazgeç</button></p>
+      <input type="hidden" name="id" value="">
+    </form>
+  </dialog>
+</body>
+
+</html>
+</body>
+</html>
